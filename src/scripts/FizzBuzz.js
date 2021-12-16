@@ -1,24 +1,22 @@
-/*for ($number=1;$number<=100;$number=$number++) {
-    console.log = $number;
-}*/
+for(let number = 1;number <= 100;number++){
+    console.log(number);
+}
 
-/*function fizzbuzz (number) {
+export function divisiblePor3 () {
+    let number1 = 3;
+    if(number1 % 3 == 0);
+    return ('Fizz') ;
+} 
 
-	if (!Number.isInteger(number)) throw new Error('Invalid argument');
-	if (!isIntegerInRange(number, 1, 100)) throw new Error('Invalid argument');
+export function divisiblePor5 () {
+    let number2 = 5;
+    if(number2 % 5 == 0) 
+    return ('Buzz') 
+}
 
-	let result = '';
-	if (isMultiple(number, 3)) {
-		result += 'Fizz';
-	}
-	if (isMultiple(number, 5)) {
-		result += 'Buzz';
-	}
-	return result || number;
-}*/
-
-function fizzbuzz (number) {
-    if (number % 3 == 0) {
-        return "Fizz";
-    } 
+export function divisiblePor3Y5 () {
+    let number3 = 15;
+    if(number3 % 3 == 0)
+    if(number3 % 5 == 0)
+    return ('FizzBuzz') 
 }
